@@ -1,11 +1,12 @@
 // import React from "react";
 import { Button } from "./ui/button";
+import profilePic from "@/assets/images/IMG_0620.JPG";
 
 const ProfileCard = () => {
   return (
     <div>
       <img
-        src="../../assets/images/IMG_0620.JPG"
+        src={profilePic}
         alt="Profile"
         className="w-50 h-50 object-fit rounded-lg mx-auto border-4 border-green-500"
       />
