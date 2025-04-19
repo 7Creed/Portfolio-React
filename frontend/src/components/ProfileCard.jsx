@@ -1,6 +1,6 @@
 // import React from "react";
 import { Button } from "./ui/button";
-import profilePic from "@/assets/images/IMG_0620.JPG";
+import profilePic from "@/assets/images/IMG_0620.jpg";
 
 const ProfileCard = () => {
   return (
