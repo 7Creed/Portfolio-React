@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "../ui/button";
 import { pricingPlans, services, testimonials } from "@/data/data";
 import { Star } from "lucide-react";
-import Footer from "../footer";
+import Footer from "../Footer";
 import { useState } from "react";
 
 const Home = () => {
