@@ -14,13 +14,13 @@ export const services = [
       "As a web developer, I offer comprehensive web development services to help bring your online presence to life. My expertise includes designing and coding web pages using HTML, CSS, and JavaScript to create visually appealing and interactive websites.",
     link: "#",
   },
-  {
-    id: 2,
-    title: "Mobile App Development",
-    description:
-      "As a mobile app developer, I specialize in creating cutting-edge mobile applications for various platforms such as iOS and Android. My services include designing and developing feature-rich and user-friendly mobile apps that cater to your specific needs.",
-    link: "#",
-  },
+  // {
+  //   id: 2,
+  //   title: "Mobile App Development",
+  //   description:
+  //     "As a mobile app developer, I specialize in creating cutting-edge mobile applications for various platforms such as iOS and Android. My services include designing and developing feature-rich and user-friendly mobile apps that cater to your specific needs.",
+  //   link: "#",
+  // },
   {
     id: 3,
     title: "Web Management",
@@ -59,7 +59,7 @@ export const pricingPlans = [
     features: [
       "Web Development",
       "Javascript",
-      "ReactJs and Upward",
+      "React Js and Upward",
       "Web and Mobile App Management",
       "Mentorship",
       "Certificate",
@@ -74,7 +74,7 @@ export const pricingPlans = [
       "Web Development",
       "Html, CSS and Javascript",
       "Bootstrap and Tailwind",
-      "React.Js",
+      "React Js",
       "Web and Mobile App Management",
       "Mentorship",
       "Certificate",
@@ -87,7 +87,7 @@ export const pricingPlans = [
     perHour: true,
     features: [
       "FrontEnd Development (Full)",
-      "Javascript, React.Js, Next.Js, Vue.Js (Optional)",
+      "Javascript, React Js, Next Js, Vue Js (Optional)",
       "Bootstrap, Tailwind and SCSS",
       "Mobile App Development (React Native or Kotlin)",
       "Web and Mobile App Management",

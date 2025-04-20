@@ -18,7 +18,7 @@ const skills = [
   { id: 3, skill: "JavaScript", icon: FaJs, color: "#EAD41D", level: 80 },
   { id: 4, skill: "REACTJS", icon: FaReact, color: "#619756", level: 75 },
   { id: 5, skill: "GIT", icon: FaGitAlt, color: "#E44D30", level: 85 },
-  { id: 6, skill: "Docker", icon: FaDocker, color: "#EAD41D", level: 45 },
+  { id: 6, skill: "Angular", icon: FaDocker, color: "#EAD41D", level: 45 },
   {
     id: 7,
     skill: "BOOTSTRAP",

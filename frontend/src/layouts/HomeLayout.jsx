@@ -9,7 +9,9 @@ const HomeLayout = ({ children }) => {
         <LeftSideBar />
       </div>
 
-      <main className="col-span-8 bg px-5">{children}</main>
+      <main className="bg bg-gray-95 bg-opacity-50 col-span-8 px-5">
+        {children}
+      </main>
 
       <div className="col-span-1">
         <RightSideBar />
