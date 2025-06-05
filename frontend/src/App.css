@@ -18,7 +18,7 @@
   /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(30, 30, 40)),
     url(/assets/images/bg-laptop-unsplash.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.555)),
-    url(./img/indexBG.jpg);
+    url(./assets/images/indexBG.jpg);
   /* background-image: url(img/indexBG.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
