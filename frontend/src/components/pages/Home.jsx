@@ -33,19 +33,23 @@ const Home = () => {
     <HomeLayout>
       <section className="py-10">
         <div className="flex border-2 border-green-400 bg-gray-950 bg-opacity-50 text-white">
-          <div className="">
-            <h1 className="text-3xl font-bold text-center">
+          <div className="flex flex-col justify-center items-center pl-10 relative z-10">
+            <h1 className="text-4xl font-black text-center">
               What&apos;s on Your Mind? Let&apos;s Bring it To Reality
             </h1>
-            <h1 className="text-2xl font-bold text-center">
+            <h1 className="text-3xl font-black text-center">
               Hey there, I&apos;m{" "}
-              <span className="underline text-[#4ce19e;]">Frank Obika</span> and
+              <span className="underline text-[#4ce19e]">Frank Obika</span> and
               I do everything frontend.
             </h1>
             <Button className="mt-4">Explore Now</Button>
           </div>
-          <div className="">
-            <img className="w-[250px]" src={profilePic2} alt="" />
+          <div className="-ml-5">
+            <img
+              className="w-[250px] bg-blend-lighten"
+              src={profilePic2}
+              alt=""
+            />
           </div>
         </div>
       </section>

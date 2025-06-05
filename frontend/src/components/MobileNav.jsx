@@ -7,10 +7,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { navigationMenu } from "@/data/data";
 import { NavLink } from "react-router-dom";
 
-const MobileNav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const MobileNav = ({ isMenuOpen, toggleMenu }) => {
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+  // const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   // const close = () => setIsMenuOpen(false);
 
